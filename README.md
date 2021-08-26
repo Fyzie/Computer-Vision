@@ -45,6 +45,6 @@ Eyes detection only occurs within faces boundaries instead of processing from th
 <summary>full_body_detection</summary>
 <br>
   
-'haarcascade classifier' is helpful however it's difficult to deal with multiple objects that have different image scale. The issue can be seen in full_body_detection task with the provided video 'walking_pedestrian.mp4'.
+'haarcascade classifier' is helpful however it's difficult to deal with multiple objects that have different image scale. The issue can be seen in full_body_detection task with the provided video 'walking-pedestrian.mp4'.
   
 </details>
