@@ -12,6 +12,7 @@ The parameters are:
 3. minNeighbors — Parameter specifying how many neighbors each candidate rectangle should have to retain it. This parameter will affect the quality of the detected faces. Higher value results in fewer detections but with higher quality. 3~6 is a good value for it. In our case, I have taken 6 as the minNeighbors and this has worked perfectly for the image that I have used.  
   
 *can be tested with different pictures with more/ lesser faces  
+  
 The appropriate configurations for line 12:  
   
   group_people.png--> face_cascade.detectMultiScale(gray, 1.1, 5)  
