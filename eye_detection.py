@@ -2,9 +2,8 @@ import cv2
 
 eye_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_eye.xml')
 
-# img = cv2.imread("media/large_group.jpg") #file directory
-# img = cv2.imread("media/group_people.png") #file directory
 img = cv2.imread("media/two_people.jpg") #file directory
+# img = cv2.imread("media/group_people.png") #file directory
 gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 
 # cv2.imshow('img',img) #to show the original picture
