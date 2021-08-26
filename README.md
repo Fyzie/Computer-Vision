@@ -16,3 +16,14 @@ The parameters are:
 credit: https://towardsdatascience.com/computer-vision-detecting-objects-using-haar-cascade-classifier-4585472829a9
   
 </details>
+
+<details open>
+<summary>eye_detection</summary>
+<br>
+  
+The appropriate configurations for line 14 (depend on the objects' features(eye)):
+  
+  two_people.jpg--> eye_cascade.detectMultiScale(gray, 1.1, 5)
+  group_people--> eye_cascade.detectMultiScale(gray, 1.05, 7)
+  
+</details>
