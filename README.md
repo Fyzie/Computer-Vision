@@ -1,6 +1,6 @@
-### Computer-Vision
+# Computer-Vision
 
-# detectMultiScale(gray, scaleFactor, minNeighbors)
+### detectMultiScale(gray, scaleFactor, minNeighbors)
 
 The parameters that we will pass to this function are:
 1. The gray scale variable — gray in our case
