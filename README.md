@@ -14,7 +14,7 @@ The parameters are:
 *can be tested with different pictures with more/ lesser faces  
 The appropriate configurations for line 12:  
   
-  group_people.png--> face_cascade.detectMultiScale(gray, 1.1, 5)
+  group_people.png--> face_cascade.detectMultiScale(gray, 1.1, 5)  
   large_group.jpg--> face_cascade.detectMultiScale(gray, 1.04, 5)
 
 credit: https://towardsdatascience.com/computer-vision-detecting-objects-using-haar-cascade-classifier-4585472829a9
