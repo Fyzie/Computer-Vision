@@ -3,7 +3,7 @@
 <details open>
 <summary>face_detection</summary>
 <br>
-### detectMultiScale(gray, scaleFactor, minNeighbors)
+detectMultiScale(gray, scaleFactor, minNeighbors)
 
 The parameters that we will pass to this function are:
 1. The gray scale variable — gray in our case
