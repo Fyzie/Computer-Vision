@@ -10,8 +10,10 @@ cv2.waitKey(0) #wait for any keys
 cv2.destroyAllWindows() #close available windows
 
 faces = face_cascade.detectMultiScale(gray, 1.3, 5) #identify face boundaries/ find features of faces (gray,scaleFactor,minNeighbors)
-# scaleFactor --> image detection scaling, the higher the faster detection with higher risk of missing faces
-# minNeihbors --> preferable 3~6, the higher the fewer the detections the higher quality
+# scaleFactor --> image detection scaling
+# depend on the wanted objects, the higher value may occur higher risk of missing faces, the lesser value may occur wrong/ invalid object(face) detection
+# the larger the object, the higher the value needed and vice versa
+# minNeihbors --> preferable 3~6, the higher value the fewer the detections the higher quality(less wrong detections)
 print(faces) #print face boundaries
 
 for (x,y,w,h) in faces: 
