@@ -32,3 +32,11 @@ The appropriate configurations for line 14 (depend on the objects' features(eye)
   group_people--> eye_cascade.detectMultiScale(gray, 1.05, 7)
   
 </details>
+
+<details open>
+<summary>eye_detection_advanced</summary>
+<br>
+  
+Eyes detection only occurs within faces boundaries
+  
+</details>
