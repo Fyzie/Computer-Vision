@@ -3,6 +3,7 @@ import cv2
 face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml') #machine learning based approach for face detection (trained file)
 
 img = cv2.imread("media/group_people.png") #file directory
+# img = cv2.imread("media/large_group.png")
 gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY) #change picture to a gray color (easy to process and less computational)
 
 cv2.imshow('img',img) #to show the original picture
