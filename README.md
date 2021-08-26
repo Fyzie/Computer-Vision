@@ -1,5 +1,8 @@
 # Computer-Vision
 
+<details open>
+<summary>face_detection</summary>
+<br>
 ### detectMultiScale(gray, scaleFactor, minNeighbors)
 
 The parameters that we will pass to this function are:
@@ -8,3 +11,5 @@ The parameters that we will pass to this function are:
 3. minNeighbors — Parameter specifying how many neighbors each candidate rectangle should have to retain it. This parameter will affect the quality of the detected faces. Higher value results in fewer detections but with higher quality. 3~6 is a good value for it. In our case, I have taken 6 as the minNeighbors and this has worked perfectly for the image that I have used.
 
 credit: https://towardsdatascience.com/computer-vision-detecting-objects-using-haar-cascade-classifier-4585472829a9
+  
+</details>
