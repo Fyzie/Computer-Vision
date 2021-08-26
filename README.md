@@ -23,7 +23,7 @@ credit: https://towardsdatascience.com/computer-vision-detecting-objects-using-h
   
 The appropriate configurations for line 14 (depend on the objects' features(eye)):
   
-  two_people.jpg--> eye_cascade.detectMultiScale(gray, 1.1, 5)
+  two_people.jpg--> eye_cascade.detectMultiScale(gray, 1.1, 5)  
   group_people--> eye_cascade.detectMultiScale(gray, 1.05, 7)
   
 </details>
