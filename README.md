@@ -37,6 +37,6 @@ The appropriate configurations for line 14 (depend on the objects' features(eye)
 <summary>eye_detection_advanced</summary>
 <br>
   
-Eyes detection only occurs within faces boundaries
+Eyes detection only occurs within faces boundaries instead of processing from the whole picture
   
 </details>
