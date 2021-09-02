@@ -2,7 +2,7 @@ import cv2
 import matplotlib.pyplot as plt
 
 # read the image
-image = cv2.imread("HEK 293T/20200506-293t-x10.jpg") # file directory
+image = cv2.imread("media/frisbee.png") # file directory
 
 # convert to grayscale
 gray = cv2.cvtColor(image, cv2.COLOR_RGB2GRAY)
