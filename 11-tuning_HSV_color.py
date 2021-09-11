@@ -42,7 +42,7 @@ while True:
     l_color = np.array([l_h, l_s, l_v])
     u_color = np.array([u_h, u_s, u_v])
 
-    # threshold HSV object
+    # threshold HSV object range from lower_color to high_color
     mask = cv2.inRange(hsv, l_color, u_color)
 
     # mask the original frame
