@@ -8,7 +8,7 @@ def nothing(x):
 
 
 # if using live cam
-cap = cv2.VideoCapture(0);
+cam = cv2.VideoCapture(0);
 
 cv2.namedWindow("HSV Tuning")
 # cv2.createTrackbar(trackbar_name,window_name,starting_value,end_value,callback_function)
@@ -24,7 +24,7 @@ while True:
     # frame = cv2.imread(path)
 
     # if using live cam
-    _, frame = cap.read()
+    _, frame = cam.read()
 
     hsv = cv2.cvtColor(frame, cv2.COLOR_BGR2HSV)
 
