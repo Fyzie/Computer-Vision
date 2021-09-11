@@ -48,3 +48,13 @@ Eyes detection only occurs within faces boundaries instead of processing from th
 'haarcascade classifier' is helpful however it's difficult to deal with multiple objects that have different image scale. The issue can be seen in full_body_detection task with the provided video 'walking-pedestrian.mp4'.
   
 </details>
+
+<details open>
+<summary>notes</summary>
+<br>
+ 
+~cv2 syntax~
+erode - remove pixels
+dilate - add pixels
+  
+</details>
