@@ -1,5 +1,7 @@
 import cv2
 
+# usually '0' for built in cam
+# might wanna try other numbers for multiple cam
 vid = cv2.VideoCapture(0)
 
 while True:
