@@ -19,7 +19,7 @@ while True:
     imgDiff = cv2.absdiff(preFrame, gaussian)
     # create a threshold (binary) image - easy to compare changing area and not
     threshImg = cv2.threshold(imgDiff, 25, 255, cv2.THRESH_BINARY)[1]
-    # remove holes within threshold area
+    # remove holes within threshold area/ eliminate noise
     threshImg = cv2.dilate(threshImg, None, iterations=2)
     # find changing area contours
     contour = cv2.findContours(threshImg.copy(), cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
