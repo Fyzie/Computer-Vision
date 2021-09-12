@@ -53,8 +53,8 @@ Eyes detection only occurs within faces boundaries instead of processing from th
 <summary>notes</summary>
 <br>
  
-~cv2 syntax~
-erode - remove pixels
+cv2 syntax  
+erode - remove pixels  
 dilate - add pixels
   
 </details>
