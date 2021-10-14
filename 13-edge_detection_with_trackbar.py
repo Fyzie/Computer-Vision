@@ -8,7 +8,7 @@ def nothing(x):
     pass
 
 
-img = cv2.imread('cell_images/d1-b4-004.jpg', 0)  # read image as grayscale
+img = cv2.imread('your_image_path_reference', 0)  # read image as grayscale
 img = imutils.resize(img, width=600) # resize the imported image
 
 # convert to grayscale
